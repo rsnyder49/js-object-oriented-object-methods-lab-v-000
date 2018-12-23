@@ -7,9 +7,9 @@ function BoardMember(name, homeState, training) {
     console.log("No, I must disagree");
   }
   
-  function apporve() {
+  this.approve = function() {
     return "You can do that!";
-  }
+  };
   
   function doCharity() {
     return "I like to help people.";
