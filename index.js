@@ -3,23 +3,23 @@ function BoardMember(name, homeState, training) {
   this.homeState = homeState;
   this.training = training;
   
-  function veto() {
+  this.veto = function() {
     console.log("No, I must disagree");
-  }
+  };
   
   this.approve = function() {
     return "You can do that!";
   };
   
-  function doCharity() {
+  this.doCharity = function() {
     return "I like to help people.";
-  }
+  };
   
-  function releasePressStatement() {
+  this.releasePressStatement = function() {
     return "You will see great things from Scuber.";
-  }
+  };
   
-  function sayHi() {
+  this.sayHi = function() {
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was training in ${this.training}.`
-  }
+  };
 }
