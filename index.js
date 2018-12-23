@@ -8,11 +8,11 @@ function BoardMember(name, homeState, training) {
   }
   
   function apporve() {
-    console.log("You can do that!");
+    return "You can do that!";
   }
   
   function doCharity() {
-    console.log("I like to help people.");
+    return "I like to help people.";
   }
   
   function releasePressStatement() {
